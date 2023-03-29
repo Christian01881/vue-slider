@@ -12,7 +12,7 @@
 <body>
     <div id="app">
         <div id="wrapper">
-            <div class="slider">
+            <div class="slider" @mouseenter="stopInterval" @mouseleave="startInterval">
                 <img :src="images[currentSlideIndex].image" :alt="images[currentSlideIndex].title">
             </div>  
             <div id="thumbnail">
