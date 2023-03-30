@@ -72,3 +72,16 @@ button.next{
     opacity: 1;
     border: 3px solid white;
 }
+
+.CPM-text{
+    position: relative;
+    top : -66px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 66px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
